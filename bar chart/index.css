@@ -1,0 +1,33 @@
+svg{
+    background-color: aqua;
+    width: 1000px;
+}
+.bar{
+    background-color: blueviolet;
+
+}
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;
+    background: rgb(198, 107, 216);
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+
+  .overlay {
+    position: absolute;
+    background: #fff;
+    pointer-events: none;
+  } 
+  #myTip{
+    display: none;
+    opacity: 0;
+  }

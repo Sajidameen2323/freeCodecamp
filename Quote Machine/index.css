@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Newsreader:wght@300&family=Roboto+Mono:wght@100&display=swap');
+
+#quote-box{
+	position: relative;
+	border-radius:15px;
+	top: 250px;
+	align-content: center;
+	width: 100vw;
+	height: 500px;
+
+}
+
+#text{
+	position: relative;
+	top: 100px;
+	font-family: 'Newsreader', serif;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	height: 300px;
+	color: aliceblue;
+
+}
+#author{
+	position: relative;
+	left: 200px;
+	color: aliceblue;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+#quote-text{
+	color: aliceblue;
+	font-family: 'Lexend Mega', sans-serif;
+	text-align: center;
+
+}
+#btns{
+	position: relative;
+	align-content: center;
+	align-items: center;
+	left:30vw;
+	top: 100px;
+}
+.btn{
+	width: 300px;
+}

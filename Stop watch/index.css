@@ -1,0 +1,41 @@
+.col{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+#labels{
+    text-align: center;
+}
+.timer{
+    width: 600px;
+    color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+.row{
+    padding: 10px;
+}
+#time-left{
+    background: black;
+    width: 300px;
+    text-align: center;
+    border-style: inset;
+    border-color: rgba(rgb(185, 177, 177), green, blue, alpha);
+}
+.main{
+    padding-top: 50px;
+}
+@media (max-width:600px){
+    .timer{
+        margin-left: 30px;
+        color: blueviolet;
+    }
+}

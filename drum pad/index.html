@@ -1,0 +1,89 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Drum Machine</title>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="container container-fluid bg-light">
+<div id="drum-machine">
+  <div id="display"class=""></div>
+ 
+  <div class="row">
+    <div class="col-xs-4">
+
+                <div id='b1' class="drum-pad">Q<audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3" id="Q" class="clip a1"></audio></div>
+            </div>
+    <div class="col-xs-4">
+
+                <div id='b2' class="drum-pad">W<audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3" id="W" class="clip a2"></audio></div>
+            </div>
+     <div class="col-xs-4">
+
+                <div id='b3' class="drum-pad">E<audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3" id="E" class="clip a3"></audio></div>
+            </div>
+
+  </div>
+  
+  <div class="row">
+     <div class="col-xs-4">
+
+                <div id='b4' class="drum-pad">A<audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3" id="A" class="clip a4"></audio></div>
+            </div>
+     <div class="col-xs-4">
+
+                <div id='b5' class="drum-pad">S<audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3" id="S" class="clip a5"></audio></div>
+            </div>
+     <div class="col-xs-4">
+
+                <div id='b6' class="drum-pad">D<audio src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3" id="D" class="clip a6"></audio></div>
+            </div>
+
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-4">
+
+                <div id='b7' class="drum-pad">Z<audio src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3" id="Z" class="clip a7"></audio></div>
+            </div>
+    <div class="col-xs-4">
+
+                <div id='b8' class="drum-pad">X<audio src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3" id="X" class="clip a8"></audio></div>
+            </div>
+    <div class="col-xs-4">
+
+                <div id='b9' class="drum-pad">C<audio src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3" id="C" class="clip a9"></audio></div>
+            </div>
+
+  </div>
+  <div class="volume-cntrl">
+    <input type="range" id="rngVolume" min="0" max="1" step=".01" value=".5"/>
+  </div>
+  </div>
+</div>
+<script type="text/javascript" src="index.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
+
+

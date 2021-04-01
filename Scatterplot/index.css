@@ -1,0 +1,21 @@
+#title{
+	font-family: algerian;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	background: linear-gradient(45deg,crimson,blue);
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+	margin: 10px 280px 0px 280px;
+	width: 50vw;
+}
+.main{
+	;
+}
+
+@media(max-width: 600px){
+	#title{
+		margin-left: 120px;
+	
+	}
+}
+

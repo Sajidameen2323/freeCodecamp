@@ -1,0 +1,60 @@
+.drum-pad{
+  width:100px;
+  height:100px;
+
+  text-align:center;
+}
+
+button{
+  width:100px;
+  height:80px;
+}
+.container-fluid{
+  width:400px;
+  align-items:center;
+  align-contents:center;
+}
+audio{
+  
+}
+.drum-pad{
+  padding-top:30px;
+  font-size:30px;
+  border-radius: 5px;
+}
+.drum-pad:hover{
+  transform:scale(0.9);
+}
+#display{
+  width:335px;
+  height:40px;
+  text-align:center;
+  font-size:25px;
+  color:white;
+}
+#rngVolume{
+  position:absolute;
+  margin-left:250px;
+  width:200px;
+  
+}
+.volume-cntrl{
+  positon:relative;
+  
+ 
+}
+#drum-machine{
+  position: relative;
+  height:600px;
+  width: 600px;
+  padding-top:180px;
+}
+
+.col-xs-4{
+  padding: 10px;
+}
+#rngVolume{
+  position: absolute;
+  right: 250px;
+  width: 335px;
+}
